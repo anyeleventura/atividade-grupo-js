@@ -18,7 +18,11 @@ let nomes = [ 'Rebeca', 'Anyele', 'Taiane', 'Rosana' ];
 let mostrar = nomes.values();
 
 // Todos os elementos do array são chamados para a tela nas próximas linhas
-document.write(mostrar.next().value + "<br>");
-document.write(mostrar.next().value + "<br>");
-document.write(mostrar.next().value + "<br>");
-document.write(mostrar.next().value + "<br>");
+document.write(mostrar.next().value + "<br>"); // Rebeca
+document.write(mostrar.next().value + "<br>"); // Anyele
+document.write(mostrar.next().value + "<br>"); // Taiane
+document.write(mostrar.next().value + "<br>"); // Rosana
+
+
+
+
